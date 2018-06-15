@@ -12,7 +12,7 @@
 
 #ifndef __ASSEMBLER__
 
-void memzero(unsigned long src, unsigned long n)l
+void memzero(unsigned long src, unsigned long n);
 
 #endif // __ASSEMBLER__
 

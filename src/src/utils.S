@@ -5,8 +5,8 @@ put32:
 
 .globl get32
 get32:
-    str w0, [x0]
-    register
+	ldr w0,[x0]
+    ret
 
 .globl delay
 delay:

@@ -9,7 +9,7 @@ SRC_DIR = src
 all : kernel7.img
 
 clean :
- 		rm -rf $(BUILD_DIR) *.img
+	rm -rf $(BUILD_DIR) *.img
 
 $(BUILD_DIR)/%_c.o: $(SRC_DIR)/%.c
 	mkdir -p $(@D)
