@@ -1,3 +1,4 @@
+#include "arm/sysregs.h"
 #include "mm.h"
 
 .section ".text.boot" // this section is put at the beginning of the linked output image
